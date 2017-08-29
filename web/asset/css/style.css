@@ -1,0 +1,193 @@
+*{
+	margin : 0px;
+	padding: 0px;
+	
+}
+body{
+	background: url(../images/background3.png);
+	font: 15px arial;
+}
+.header{
+	
+}
+.container{
+	max-width: 950px;
+	margin-top: 40px;
+	background: white;
+	height: 1200px;
+	border: 10px solid white;
+
+}
+.logo{
+	padding-left: 75px;
+
+}
+.telephone{
+	padding-left: 12px;
+	padding-top: 10px;
+	position: absolute;
+	left: 50px;
+}
+.telephone img{
+	float: left;
+	padding-right: 5px;
+}
+.login{
+	border-right: 1px solid red;
+}
+.login img{
+	float: left;
+	padding-top: 5px;
+	padding-right:5px;
+}
+.register img{
+	float: left;
+	padding-top: 5px;
+	padding-right:5px;
+}
+.icon{
+	padding-top: 12px;
+	position: absolute;
+	right: -9px;
+}
+
+/*Menu*/	
+.container-fluid{
+	background: url(../images/background2.png) ;
+	width: 915px;
+}
+.container-fluid ul li a{
+	color: white;
+	text-decoration:none;
+}
+.container-fluid li{
+	height: 35px;
+	padding-right: 35px;
+	padding-top: 8px;
+	list-style-type: none;
+
+}
+.container-fluid li a:hover{
+	color:yellow;
+}
+.container-fluid li .active1{
+	padding-bottom: 12px; 
+}
+.menu{
+	margin-top: 10px;
+	border: 1px solid transparent;
+}
+.menu .search{
+	height: 25px;
+	width: 200px;
+	margin-left: 30px;
+	margin-bottom: 5px;
+	margin-right: 3px;
+}
+.menu .search1{
+	height: 25px;
+	width: 25px;
+	background: #ccc;
+	margin-top:4px;
+}
+.menu .search1:hover{
+	color: yellow;
+}
+/*Product*/
+div .selling{
+	height: 35px;
+	background: url(../images/background6.png);
+	color: white;
+	text-align: center;
+  	border-radius: 4px;
+  	font: 20px arial;
+
+
+}
+div .selling p{
+	padding-top :7px;
+}
+div .latest{
+	border-bottom: 1px dotted black;
+	height: 65px;
+	margin-bottom: 10px;
+}
+div .latest #img-lt{
+	float: left;
+}
+div .latest #p1{
+	float: left;
+	margin-right: 75px;
+	margin-top:6px;
+	color: red;
+}
+.banner{
+	height: 300px;
+}
+
+
+/*services*/
+
+.services{
+	margin-top: 15px;
+}
+div.right-selling{
+	border-bottom: 1px dotted black;
+	margin-top: 10px;
+
+}
+div.right-selling img{
+	float:left;
+}
+div.right-selling p{
+	margin-left: 30px;
+	text-decoration: none;
+	color: black
+}
+div.right-selling p:hover{
+	color: blue;
+}
+
+div.products-services .Gtele{
+	color: red;
+	float: left;
+	/*padding-left: 10px;
+	padding-bottom: 10px;*/
+	padding:5px 13px 0px;
+}
+div.products-services{
+	text-align: center;
+}
+div.products-services #addtocart{
+	font-size: 10px;
+	text-align: center;
+	padding-top: 10px;
+	border-top: 1px solid #ccc;
+}
+div.outsize{
+	margin-top: 25px;
+}
+
+/*footer*/
+footer .footerlink{
+	height: 70px;
+	background: url(../images/background6.png)
+}
+footer li {
+	list-style: none;
+	margin-left:10px;
+	border-right: 1px solid #ccc;
+	width: 40px;
+
+
+}
+footer li a{
+	color: white;
+}
+footer li a:hover{
+	color: blue;
+}
+footer li#db1{
+	width: 70px;
+	border: none;
+}
